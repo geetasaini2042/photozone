@@ -1,6 +1,70 @@
 title: "JAVIN GRAPHICS"
 description: "A Professional Photography Website"
 
+hero:
+  subtitle: "Welcome To Javin Graphics"
+  title: "Wedding And Portrait Studio Based in New York"
+  description: "Tempor erat elitr rebum at clita..."
+  button_text: "Explore More"
+  button_link: "#"
+  video_url: "https://www.youtube.com/embed/DWRcNpR6Kdc"
+  images:
+    left:
+      - src: "img/hero-1.jpg"
+        width: "100"
+        mb: true
+      - src: "img/hero-3.jpg"
+        width: "50"
+        mb: false
+    right:
+      - src: "img/hero-4.jpg"
+        width: "50"
+        mb: true
+      - src: "img/hero-2.jpg"
+        width: "100"
+        mb: false
+
+facts:
+  subtitle: "Why Choose Us!"
+  title: "The Leading Photo Studio In The Country"
+  items:
+    - number: 35
+      heading: "Award Winning"
+      description: "Aliqu diam amet diam et eos..."
+      delay: "0.1s"
+      pt: true
+    - number: 9
+      heading: "Years Experience"
+      description: "Aliqu diam amet diam et eos..."
+      delay: "0.3s"
+    - number: 12345
+      heading: "Happy Clients"
+      description: "Aliqu diam amet diam et eos..."
+      delay: "0.5s"
+      pt: true
+
+services:
+  subtitle: "Our Services"
+  title: "We Provide Best Professional Services"
+  items:
+    - name: "Weddings"
+      img: "img/service-1.jpg"
+      link: "#"
+      delay: "0.1s"
+    - name: "Portraits"
+      img: "img/service-2.jpg"
+      link: "#"
+      delay: "0.3s"
+      pt: true
+    - name: "Fashion"
+      img: "img/service-3.jpg"
+      link: "#"
+      delay: "0.5s"
+    - name: "Editorial"
+      img: "img/service-4.jpg"
+      link: "#"
+      delay: "0.7s"
+      pt: true
 footer:
   description: "Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et dolor."
   address: "Bassi Jaipur, Rajasthan"
