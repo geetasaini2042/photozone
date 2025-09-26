@@ -1,0 +1,22 @@
+navbar:
+  brand: "Photozone"
+  left:
+    - name: "Home"
+      url: "/"
+    - name: "About"
+      url: "/about/"
+    - name: "Services"
+      url: "/service/"
+  right:
+    - name: "Projects"
+      url: "/project/"
+    - name: "Pages"
+      dropdown:
+        - name: "Features"
+          url: "/feature/"
+        - name: "Our Team"
+          url: "/team/"
+        - name: "Testimonial"
+          url: "/testimonial/"
+    - name: "Contact"
+      url: "/contact/"
