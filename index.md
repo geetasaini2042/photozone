@@ -33,12 +33,12 @@ title: Home
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Header End -->
+</div>
+<!-- Header End -->
 
 
-    <!-- Video Modal Start -->
-   <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Video Modal Start -->
+<div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
                 <div class="modal-header">
@@ -58,7 +58,7 @@ title: Home
     <!-- Video Modal End -->
 
 
-    <!-- About Start -->
+<!-- About Start -->
 <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
@@ -97,8 +97,8 @@ title: Home
                 </div>
             </div>
         </div>
-    </div>
-    <!-- About End -->
+</div>
+<!-- About End -->
 
 
     <!-- Facts Start -->
