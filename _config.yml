@@ -1,5 +1,53 @@
+title: "JAVIN GRAPHICS"
+description: "A Professional Photography Website"
+
+footer:
+  description: "Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et dolor."
+  address: "Bassi Jaipur, Rajasthan"
+  phone: "+91 7062625420"
+  email: "info@mrsingodiya.me"
+
+  social:
+    - icon: "fab fa-twitter"
+      url: "#"
+    - icon: "fab fa-facebook-f"
+      url: "#"
+    - icon: "fab fa-linkedin-in"
+      url: "#"
+    - icon: "fab fa-instagram"
+      url: "#"
+
+  quick_links:
+    - name: "About Us"
+      url: "/about/"
+    - name: "Contact Us"
+      url: "/contact/"
+    - name: "Our Services"
+      url: "/service/"
+    - name: "Terms & Condition"
+      url: "/terms/"
+    - name: "Support"
+      url: "/support/"
+
+  popular_links:
+    - name: "About Us"
+      url: "/about/"
+    - name: "Contact Us"
+      url: "/contact/"
+    - name: "Our Services"
+      url: "/service/"
+    - name: "Terms & Condition"
+      url: "/terms/"
+    - name: "Support"
+      url: "/support/"
+
+  copyright: "JAVIN GRAPHICS"
+  credit:
+    designer: "MR. SINGODIYA"
+    designer_url: "https://www.mrsingodiya.me"
+    distributor: "SINGODIYA TECH"
+    distributor_url: "https://www.singodiya.tech"
 navbar:
-  brand: "JAVIN GRAPHICS"
   left:
     - name: "Home"
       url: "/"
