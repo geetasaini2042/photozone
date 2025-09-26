@@ -2,9 +2,8 @@
 layout: default
 title: Home
 ---
-
-    <!-- Header Start -->
-    <div class="container-fluid hero-header bg-light py-5 mb-5">
+<!-- Header Start -->
+<div class="container-fluid hero-header bg-light py-5 mb-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
@@ -39,7 +38,7 @@ title: Home
 
 
     <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
                 <div class="modal-header">
@@ -60,7 +59,7 @@ title: Home
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+<div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -103,7 +102,7 @@ title: Home
 
 
     <!-- Facts Start -->
-    <div class="container-xxl py-5">
+<div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="text-primary text-uppercase mb-2">Why Choose Us!</p>
@@ -138,7 +137,7 @@ title: Home
 
 
     <!-- Service Start -->
-    <div class="container-xxl bg-light py-5 my-5">
+<div class="container-xxl bg-light py-5 my-5">
         <div class="container py-5">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="text-primary text-uppercase mb-2">Our Services</p>
@@ -204,7 +203,7 @@ title: Home
 
 
     <!-- Project Start -->
-    <div class="container-xxl py-5">
+<div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="text-primary text-uppercase mb-2">Our Works</p>
@@ -298,7 +297,7 @@ title: Home
 
 
     <!-- Team Start -->
-    <div class="container-xxl px-0 py-5">
+<div class="container-xxl px-0 py-5">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <p class="text-primary text-uppercase mb-2">Our Team</p>
             <h1 class="display-6 mb-0">Creative Photograher And Videographer</h1>
@@ -402,7 +401,7 @@ title: Home
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+<div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="text-primary text-uppercase mb-2">Client's Review</p>
