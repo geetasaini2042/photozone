@@ -3,8 +3,8 @@ layout: default
 title: Our Team
 ---
 
-    <!-- Header Start -->
-    <div class="container-fluid hero-header bg-light py-5 mb-5">
+<!-- Header Start -->
+<div class="container-fluid hero-header bg-light py-5 mb-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
@@ -29,12 +29,12 @@ title: Our Team
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Header End -->
+</div>
+<!-- Header End -->
 
 
-    <!-- Team Start -->
-    <div class="container-xxl px-0 py-5">
+<!-- Team Start -->
+<div class="container-xxl px-0 py-5">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <p class="text-primary text-uppercase mb-2">Our Team</p>
             <h1 class="display-6 mb-0">Creative Photograher And Videographer</h1>
@@ -133,5 +133,5 @@ title: Our Team
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Team End -->
+</div>
+<!-- Team End -->
