@@ -4,12 +4,6 @@ keywords: "Photo Studio, Photography, Editing, Portfolio, Wedding Shoot, Model P
 author: "Javin Graphics Team"
 favicon: "/img/favicon.ico"
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      permalink: pretty
-      
 # _config.yml
 contact:
   title: "Contact Us"
