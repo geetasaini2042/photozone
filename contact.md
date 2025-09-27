@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Us 
+title: Contact Us
 permalink: /contact-us/
 redirect_from:
   - /contact-me/
@@ -24,10 +24,10 @@ redirect_from:
       <div class="col-lg-6 animated fadeIn">
         <div class="row g-3">
           <div class="col-6 text-end">
-            <img class="img-fluid bg-white p-3 w-100" src="img/hero-1.jpg" alt="">
+            <img class="img-fluid bg-white p-3 w-100" src="{{ '/img/hero-1.jpg' | relative_url }}" alt="">
           </div>
           <div class="col-6">
-            <img class="img-fluid bg-white p-3 w-100" src="img/hero-2.jpg" alt="">
+            <img class="img-fluid bg-white p-3 w-100" src="{{ '/img/hero-2.jpg' | relative_url }}" alt="">
           </div>
         </div>
       </div>
@@ -94,3 +94,4 @@ redirect_from:
     src="{{ site.contact.map }}"
     frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
+<!-- Google Map End -->
