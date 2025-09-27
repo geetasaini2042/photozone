@@ -13,6 +13,15 @@ contact:
   address: "Bassi Jaipur, Rajasthan"
   phone: "+91 7062625420"
   email: "info@mrsingodiya.me"
+  social:
+    - icon: "fab fa-twitter"
+      url: "#"
+    - icon: "fab fa-facebook-f"
+      url: "#"
+    - icon: "fab fa-linkedin-in"
+      url: "#"
+    - icon: "fab fa-instagram"
+      url: "#"
 
 
 hero:
@@ -85,20 +94,6 @@ services:
       pt: true
 footer:
   description: "Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et dolor."
-  address: "Bassi Jaipur, Rajasthan"
-  phone: "+91 7062625420"
-  email: "info@mrsingodiya.me"
-
-  social:
-    - icon: "fab fa-twitter"
-      url: "#"
-    - icon: "fab fa-facebook-f"
-      url: "#"
-    - icon: "fab fa-linkedin-in"
-      url: "#"
-    - icon: "fab fa-instagram"
-      url: "#"
-
   quick_links:
     - name: "About Us"
       url: "/about/"
