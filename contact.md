@@ -97,7 +97,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
   formAlert.innerHTML = "Sending...";
 
   try {
-    const response = await fetch('https://api.javingraphics.me/forms', {
+    const response = await fetch('https://api.javingraphics.me/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
