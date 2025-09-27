@@ -6,11 +6,11 @@
         <h1 class="display-5 text-primary">{{ site.title }}</h1>
       </a>
       <p>{{ site.footer.description }}</p>
-      <p><i class="fa fa-map-marker-alt me-2"></i>{{ site.footer.address }}</p>
-      <p><i class="fa fa-phone-alt me-2"></i>{{ site.footer.phone }}</p>
-      <p><i class="fa fa-envelope me-2"></i>{{ site.footer.email }}</p>
+      <p><i class="fa fa-map-marker-alt me-2"></i>{{ site.contact.address }}</p>
+      <p><i class="fa fa-phone-alt me-2"></i>{{ site.contact.phone }}</p>
+      <p><i class="fa fa-envelope me-2"></i>{{ site.contact.email }}</p>
       <div class="d-flex justify-content-start mt-4">
-        {% for s in site.footer.social %}
+        {% for s in site.contact.social %}
           <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="{{ s.url }}"><i class="{{ s.icon }}"></i></a>
         {% endfor %}
       </div>
