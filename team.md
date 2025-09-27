@@ -1,8 +1,14 @@
 ---
 layout: default
 title: Our Team
+permalink: /our-team/
+redirect_from:
+  - /team/
+  - /members/
+  - /team.html
+  - /team.html/
+  - /team
 ---
-
 <!-- Header Start -->
 <div class="container-fluid hero-header bg-light py-5 mb-5">
   <div class="container py-5">
