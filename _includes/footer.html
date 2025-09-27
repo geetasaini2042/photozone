@@ -30,6 +30,7 @@
             <a class="btn btn-link" href="{{ link.url | relative_url }}">{{ link.name }}</a>
           {% endfor %}
         </div>
+        <!--
         <div class="col-sm-12">
           <h4 class="text-light mb-4">Newsletter</h4>
           <div class="w-100">
@@ -38,6 +39,12 @@
               <button class="btn btn-primary px-4">Sign Up</button>
             </div>
           </div>
+        </div>
+-->
+
+        <div class="col-sm-12">
+          <h4 class="text-light mb-4">Newsletter</h4>
+          <p class="text-light">Coming Soon...</p>
         </div>
       </div>
     </div>
@@ -49,7 +56,7 @@
 <div class="container-fluid bg-dark text-white border-top border-secondary px-0">
   <div class="d-flex flex-column flex-md-row justify-content-between">
     <div class="py-4 px-5 text-center text-md-start">
-      <p class="mb-0">&copy; <a class="text-primary" href="#">{{ site.footer.copyright }}</a>. All Rights Reserved.</p>
+      <p class="mb-0">&copy; <a class="text-primary" href="/">{{ site.footer.copyright }}</a>. All Rights Reserved.</p>
     </div>
     <div class="py-4 px-5 bg-secondary footer-shape position-relative text-center text-md-end">
       <p class="mb-0">Designed by <a class="text-primary fw-bold" href="{{ site.footer.credit.designer_url }}">{{ site.footer.credit.designer }}</a></p>
