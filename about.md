@@ -1,6 +1,10 @@
 ---
 layout: default
 title: ABOUT US
+permalink: /about-us/
+redirect_from:
+  - /about/
+  - /about-me/
 ---
     
 <!-- Header Start -->
