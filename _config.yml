@@ -1,6 +1,17 @@
 title: "JAVIN GRAPHICS"
 description: "A Professional Photography Website"
 
+# _config.yml
+contact:
+  title: "Contact Us"
+  subtitle: "If You Have Any Query, Please Contact Us"
+  description: "You can reach us via the form below or directly through our email/phone."
+  map: "https://www.google.com/maps/embed?pb=!1m18!1m12..."
+  address: "Bassi Jaipur, Rajasthan"
+  phone: "+91 7062625420"
+  email: "info@mrsingodiya.me"
+
+
 hero:
   subtitle: "Welcome To Javin Graphics"
   title: "Wedding And Portrait Studio Based in New York"
@@ -26,7 +37,8 @@ hero:
 
 plugins:
   - jekyll-redirect-from
-  
+
+
 facts:
   subtitle: "Why Choose Us!"
   title: "The Leading Photo Studio In The Country"
