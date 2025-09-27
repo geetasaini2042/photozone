@@ -77,17 +77,17 @@ redirect_from:
             </div>
           </div>
         </form>
-        <div class="mt-4 text-center">
-          <p><strong>Email:</strong> {{ site.contact.email }}</p>
-          <p><strong>Phone:</strong> {{ site.contact.phone }}</p>
-          <p><strong>Address:</strong> {{ site.contact.address }}</p>
-        </div>
       </div>
     </div>
   </div>
 </div>
 <!-- Contact End -->
 
+ <div class="mt-4 text-center">
+   <p><strong>Email:</strong> {{ site.contact.email }}</p>
+   <p><strong>Phone:</strong> {{ site.contact.phone }}</p>
+   <p><strong>Address:</strong> {{ site.contact.address }}</p>
+</div>
 <!-- Google Map Start -->
 <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
   <iframe class="w-100 mb-n2" style="height: 450px;"
