@@ -1,0 +1,19 @@
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+      <p class="text-primary text-uppercase mb-2">{{ site.facts.subtitle }}</p>
+      <h1 class="display-6 mb-5">{{ site.facts.title }}</h1>
+    </div>
+    <div class="row g-3">
+      {% for fact in site.facts.items %}
+      <div class="col-lg-4 col-md-6 {% if fact.pt %}pt-lg-5{% endif %} wow fadeInUp" data-wow-delay="{{ fact.delay }}">
+        <div class="fact-item bg-light text-center h-100 p-5">
+          <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">{{ fact.number }}</h1>
+          <h4 class="mb-3">{{ fact.heading }}</h4>
+          <span>{{ fact.description }}</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
