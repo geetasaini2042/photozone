@@ -46,29 +46,29 @@ redirect_from:
     <div class="row g-0 justify-content-center">
       <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
         <p class="text-center mb-4">{{ site.contact.description }}</p>
-        <form>
+        <form id="contactForm">
           <div class="row g-3">
             <div class="col-md-6">
               <div class="form-floating">
-                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                 <label for="name">Your Name</label>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-floating">
-                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
                 <label for="email">Your Email</label>
               </div>
             </div>
             <div class="col-12">
               <div class="form-floating">
-                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                <input type="text" class="form-control" id="subject" placeholder="Subject" required>
                 <label for="subject">Subject</label>
               </div>
             </div>
             <div class="col-12">
               <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
+                <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px" required></textarea>
                 <label for="message">Message</label>
               </div>
             </div>
@@ -77,11 +77,46 @@ redirect_from:
             </div>
           </div>
         </form>
+        <div id="formAlert" class="mt-3 text-center"></div>
       </div>
     </div>
   </div>
 </div>
 <!-- Contact End -->
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const subject = document.getElementById('subject').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  const formAlert = document.getElementById('formAlert');
+  formAlert.innerHTML = "Sending...";
+
+  try {
+    const response = await fetch('https://api.javingraphics.me/forms', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ name, email, subject, message })
+    });
+
+    if (response.ok) {
+      formAlert.innerHTML = '<span class="text-success">Message sent successfully!</span>';
+      document.getElementById('contactForm').reset();
+    } else {
+      formAlert.innerHTML = '<span class="text-danger">Failed to send message. Please try again.</span>';
+    }
+  } catch (error) {
+    console.error(error);
+    formAlert.innerHTML = '<span class="text-danger">Error occurred. Please try again later.</span>';
+  }
+});
+</script>
 
  <div class="mt-4 text-center">
    <p><strong>Email:</strong> {{ site.contact.email }}</p>
