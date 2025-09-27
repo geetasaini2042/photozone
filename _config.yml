@@ -24,6 +24,9 @@ hero:
         width: "100"
         mb: false
 
+plugins:
+  - jekyll-redirect-from
+  
 facts:
   subtitle: "Why Choose Us!"
   title: "The Leading Photo Studio In The Country"
