@@ -60,7 +60,13 @@ redirect_from:
                 <label for="email">Your Email</label>
               </div>
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="contactNumber" placeholder="Contact Number (Optional)">
+                <label for="contactNumber">Contact Number (Optional)</label>
+              </div>
+            </div>
+            <div class="col-md-6">
               <div class="form-floating">
                 <input type="text" class="form-control" id="subject" placeholder="Subject" required>
                 <label for="subject">Subject</label>
@@ -90,6 +96,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
 
   const name = document.getElementById('name').value.trim();
   const email = document.getElementById('email').value.trim();
+  const contactNumber = document.getElementById('contactNumber').value.trim();
   const subject = document.getElementById('subject').value.trim();
   const message = document.getElementById('message').value.trim();
 
@@ -97,12 +104,19 @@ document.getElementById('contactForm').addEventListener('submit', async function
   formAlert.innerHTML = "Sending...";
 
   try {
-    const response = await fetch('https://api.javingraphics.me/', {
+    // Telegram ID config se le rahe hain
+    const telegram_id = '{{ site.contact.telegram_id }}';
+
+    // JSON me sab data bhej rahe hain
+    const payload = { name, email, subject, message };
+    if(contactNumber) payload.contactNumber = contactNumber;
+
+    const response = await fetch('https://api.javingraphics.me/forms', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ name, email, subject, message })
+      body: JSON.stringify({ ...payload, telegram_id })
     });
 
     if (response.ok) {
@@ -118,7 +132,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
 });
 </script>
 
- <div class="mt-4 text-center">
+ <div class="mt-4 text-center" data-wow-delay="0.1s">
    <p><strong>Email:</strong> {{ site.contact.email }}</p>
    <p><strong>Phone:</strong> {{ site.contact.phone }}</p>
    <p><strong>Address:</strong> {{ site.contact.address }}</p>
