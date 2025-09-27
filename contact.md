@@ -1,6 +1,6 @@
 ---
 layout: default
-title: {{ site.contact.title }}
+title: Contact Us 
 permalink: /contact-us/
 redirect_from:
   - /contact-me/
