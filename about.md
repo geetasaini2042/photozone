@@ -15,8 +15,8 @@ redirect_from:
                     <h1 class="display-4 mb-3 animated slideInDown">About Us</h1>
                     <nav aria-label="breadcrumb animated slideInDown">
                         <ol class="breadcrumb mb-0">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item"><a href="/pages">Pages</a></li>
                             <li class="breadcrumb-item active" aria-current="page">About Us</li>
                         </ol>
                     </nav>
@@ -24,10 +24,10 @@ redirect_from:
                 <div class="col-lg-6 animated fadeIn">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid bg-white p-3 w-100" src="/img/hero-1.jpg" alt="">
+                            <img class="img-fluid bg-white p-3 w-100" src="{% site.images.hero_1 %}" alt="">
                         </div>
                         <div class="col-6">
-                            <img class="img-fluid bg-white p-3 w-100" src="/img/hero-2.jpg" alt="">
+                            <img class="img-fluid bg-white p-3 w-100" src="{% site.images.hero_2 %}" alt="">
                         </div>
                     </div>
                 </div>
