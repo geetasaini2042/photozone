@@ -97,7 +97,9 @@ services:
       delay: "0.7s"
       pt: true
 footer:
-  description: "Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et dolor."
+  description: |
+Your trusted partner for premium graphic design and printing solutions.  
+We specialize in transforming your ideas into captivating visuals that not only reflect your brand identity but also leave a lasting impression. From innovative graphic design to high-quality printing, our team is dedicated to delivering professional, customized solutions that elevate your business presence. Whether you need branding, marketing materials, or promotional content, we ensure every detail is crafted with precision, creativity, and excellence to meet your unique business needs.
   quick_links:
     - name: "About Us"
       url: "/about/"
