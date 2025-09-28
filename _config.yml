@@ -68,7 +68,7 @@ facts:
       heading: "Years Experience"
       description: "Aliqu diam amet diam et eos..."
       delay: "0.3s"
-    - number: 12345
+    - number: 2000+
       heading: "Happy Clients"
       description: "Aliqu diam amet diam et eos..."
       delay: "0.5s"
