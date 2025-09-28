@@ -24,7 +24,8 @@ contact:
     - icon: "fab fa-instagram"
       url: "#"
 images: 
-   hero_1: 
+   hero_1: "/img/hero-1.jpg"
+   hero_2: "/img/hero-2.jpg"
    
 
 hero:
