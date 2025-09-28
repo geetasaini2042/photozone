@@ -23,7 +23,9 @@ contact:
       url: "#"
     - icon: "fab fa-instagram"
       url: "#"
-
+images: 
+   hero_1: 
+   
 
 hero:
   subtitle: "Welcome To Javin Graphics"
@@ -155,9 +157,9 @@ about:
     - "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet"
     - "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet"
   images:
-    - src: "img/about-1.jpg"
+    - src: "/img/about-1.jpg"
       position: "top"
-    - src: "img/about-2.jpg"
+    - src: "/img/about-2.jpg"
       position: "bottom"
   features:
     - "Quality Products"
