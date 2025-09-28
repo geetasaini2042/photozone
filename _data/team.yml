@@ -4,7 +4,7 @@ team:
   members:
     - name: "Satya Prakash Saini"
       role: "Photographer"
-      image: "img/team-1.jpg"
+      image: "/team_images/DSC_5483.jpg"
       description: "9 Year Experience"
       social:
         facebook: "#"
@@ -42,6 +42,7 @@ team:
         instagram: "#"
       delay: "0.3s"
       layout: "reverse-sm"
+      
 team_page:
   title: "Creative Photographer And Videographer"
   subtitle: "Our Team"
@@ -49,10 +50,10 @@ team_page:
     - src: "img/hero-1.jpg"
     - src: "img/hero-2.jpg"
   members:
-    - name: "Lucifer Jhones"
+    - name: "Satya Prakash Saini"
       role: "Photographer"
-      image: "img/team-1.jpg"
-      description: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo"
+      image: "/team_images/DSC_5483.jpg"
+      description: "Satya Prakash Saini 9 year Experience. "
       social:
         facebook: "#"
         twitter: "#"
