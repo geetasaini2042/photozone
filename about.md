@@ -24,10 +24,10 @@ redirect_from:
                 <div class="col-lg-6 animated fadeIn">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid bg-white p-3 w-100" src="{% site.images.hero_1 %}" alt="">
+                            <img class="img-fluid bg-white p-3 w-100" src="{{ site.images.hero_1 }}" alt="">
                         </div>
                         <div class="col-6">
-                            <img class="img-fluid bg-white p-3 w-100" src="{% site.images.hero_2 %}" alt="">
+                            <img class="img-fluid bg-white p-3 w-100" src="{{ site.images.hero_2 }}" alt="">
                         </div>
                     </div>
                 </div>
