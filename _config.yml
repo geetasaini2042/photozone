@@ -12,17 +12,17 @@ contact:
   map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3556.8754090499583!2d76.16478699999999!3d26.939163999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDU2JzIxLjAiTiA3NsKwMDknNTMuMiJF!5e0!3m2!1sen!2sin!4v1758941562692!5m2!1sen!2sin" # width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   address: "Bassi Jaipur, Rajasthan"
   telegram_id: 6150091802
-  phone: "+91 7062625420"
-  email: "info@mrsingodiya.me"
+  phone: "+91 9376373535"
+  email: "graphicsnika@gmail.com"
   social:
     - icon: "fab fa-twitter"
       url: "#"
     - icon: "fab fa-facebook-f"
-      url: "#"
+      url: "https://www.facebook.com/share/17vMAEhM4m/"
     - icon: "fab fa-linkedin-in"
       url: "#"
     - icon: "fab fa-instagram"
-      url: "#"
+      url: "https://www.instagram.com/niksattu"
 images: 
    hero_1: "/img/hero-1.jpg"
    hero_2: "/img/hero-2.jpg"
@@ -64,7 +64,7 @@ facts:
       description: "Aliqu diam amet diam et eos..."
       delay: "0.1s"
       pt: true
-    - number: 9
+    - number: 11
       heading: "Years Experience"
       description: "Aliqu diam amet diam et eos..."
       delay: "0.3s"
