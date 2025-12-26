@@ -141,12 +141,6 @@ navbar:
     - name: "WEDDING CARD"
       url: "/wedding-card/"
   right:
-    - name: "Project"
-      dropdown:
-        - name: "Advertising"
-          url: "/advertising/"
-        - name: "Wedding City"
-          url: "/wedding-city/"
     - name: "WEDDING PHOTOGRAPHY"
       dropdown:
         - name: "DESTINATION WEDDING PICS"
@@ -155,6 +149,12 @@ navbar:
           url: "/wedding-pics/"
         - name: "PRE-WEDDING"
           url: "/pre-wedding/"
+    - name: "PROJECTS"
+      dropdown:
+        - name: "Advertising"
+          url: "/advertising/"
+        - name: "Wedding City"
+          url: "/wedding-city/"
     - name: "Contact"
       url: "/contact/"
 
