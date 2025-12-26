@@ -142,7 +142,7 @@ navbar:
       url: "/wedding-card/"
   right:
     - name: "Project"
-       dropdown:
+      dropdown:
         - name: "Advertising"
           url: "/advertising/"
         - name: "Wedding City"
