@@ -1,4 +1,4 @@
-title: "JAVIN GRAPHICS"
+title: "JAVIN GRAPHICS & STUDIOS"
 description: "Professional Photo Studio Website - Photography, Editing & Creative Shoots"
 keywords: "Photo Studio, Photography, Editing, Portfolio, Wedding Shoot, Model Photography"
 author: "Javin Graphics Team"
@@ -136,10 +136,10 @@ navbar:
   left:
     - name: "Home"
       url: "/"
-    - name: "About"
-      url: "/about/"
-    - name: "Services"
-      url: "/service/"
+    - name: "PRINTING SERVICES"
+      url: "/printing-services/"
+    - name: "ID CARD PRINTING"
+      url: "/id-card-printing/"
   right:
     - name: "Projects"
       url: "/project/"
